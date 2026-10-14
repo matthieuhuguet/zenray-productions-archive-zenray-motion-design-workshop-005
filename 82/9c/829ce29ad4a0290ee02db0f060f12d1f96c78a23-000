@@ -1,0 +1,246 @@
+{
+ "date": "12 October 2026",
+ "scorer": "Scripts/MusicCritic.py compare (third-octave tfBands)",
+ "other": {
+  "tfBands": 98.303,
+  "E": 1.3051,
+  "plossBarNoOnset": 81.748,
+  "plossEvents": 81.055,
+  "mixTfBandsSwapped": 97.965,
+  "diagnosis": {
+   "E": 1.3051,
+   "score": 98.303,
+   "groups": [
+    {
+     "hz": [
+      30,
+      120
+     ],
+     "errorShare": 0.196,
+     "meanAbsDb": 5.39,
+     "signedDb": -0.31
+    },
+    {
+     "hz": [
+      120,
+      500
+     ],
+     "errorShare": 0.322,
+     "meanAbsDb": 3.02,
+     "signedDb": 0.13
+    },
+    {
+     "hz": [
+      500,
+      2000
+     ],
+     "errorShare": 0.218,
+     "meanAbsDb": 1.71,
+     "signedDb": 0.23
+    },
+    {
+     "hz": [
+      2000,
+      6000
+     ],
+     "errorShare": 0.107,
+     "meanAbsDb": 1.59,
+     "signedDb": 0.21
+    },
+    {
+     "hz": [
+      6000,
+      16000
+     ],
+     "errorShare": 0.157,
+     "meanAbsDb": 3.45,
+     "signedDb": -0.13
+    }
+   ],
+   "sections": [
+    {
+     "start": 0.0,
+     "end": 5.7469,
+     "errorShare": 0.07,
+     "meanAbsDb": 2.54,
+     "signedDb": 0.19
+    },
+    {
+     "start": 5.7469,
+     "end": 16.6502,
+     "errorShare": 0.131,
+     "meanAbsDb": 2.58,
+     "signedDb": 0.04
+    },
+    {
+     "start": 16.6502,
+     "end": 22.1018,
+     "errorShare": 0.119,
+     "meanAbsDb": 2.96,
+     "signedDb": 0.19
+    },
+    {
+     "start": 22.1018,
+     "end": 27.5534,
+     "errorShare": 0.094,
+     "meanAbsDb": 2.52,
+     "signedDb": 0.11
+    },
+    {
+     "start": 27.5534,
+     "end": 33.0051,
+     "errorShare": 0.108,
+     "meanAbsDb": 2.93,
+     "signedDb": 0.05
+    },
+    {
+     "start": 33.0051,
+     "end": 62.989,
+     "errorShare": 0.451,
+     "meanAbsDb": 2.61,
+     "signedDb": 0.09
+    },
+    {
+     "start": 62.989,
+     "end": 68.0533,
+     "errorShare": 0.026,
+     "meanAbsDb": 1.51,
+     "signedDb": 0.22
+    }
+   ],
+   "split": {
+    "onsetFrames": 0.716,
+    "sustainFrames": 0.284,
+    "missingEnergy": 0.199,
+    "extraEnergy": 0.206,
+    "within6Db": 0.595
+   },
+   "ifFixed": {
+    "missingEnergy": 98.91,
+    "extraEnergy": 98.93,
+    "onsetFrames": 99.86,
+    "lowUnder120Hz": 98.9
+   }
+  },
+  "dryTfBands": 92.784
+ },
+ "base": {
+  "version": "V_034",
+  "tfBands": 94.725,
+  "plossBarNoOnset": 67.417,
+  "plossEvents": 66.885
+ },
+ "fit": {
+  "calibration": [
+   {
+    "otherLow": 6.071,
+    "otherMid": 1.504,
+    "otherHigh": 1.157,
+    "otherMidShort": 1.87,
+    "otherHighShort": 1.375,
+    "otherLowShort": 4.699
+   },
+   {
+    "otherLow": 3.531,
+    "otherMid": 0.983,
+    "otherHigh": 0.741,
+    "otherMidShort": 1.151,
+    "otherHighShort": 0.839,
+    "otherLowShort": 2.29
+   },
+   {
+    "otherLow": 2.665,
+    "otherMid": 0.762,
+    "otherHigh": 0.557,
+    "otherMidShort": 0.866,
+    "otherHighShort": 0.651,
+    "otherLowShort": 1.635
+   },
+   {
+    "otherLow": 2.353,
+    "otherMid": 0.638,
+    "otherHigh": 0.423,
+    "otherMidShort": 0.763,
+    "otherHighShort": 0.52,
+    "otherLowShort": 1.407
+   },
+   {
+    "otherLow": 2.277,
+    "otherMid": 0.546,
+    "otherHigh": 0.353,
+    "otherMidShort": 0.686,
+    "otherHighShort": 0.424,
+    "otherLowShort": 1.329
+   },
+   {
+    "otherLow": 2.208,
+    "otherMid": 0.489,
+    "otherHigh": 0.304,
+    "otherMidShort": 0.621,
+    "otherHighShort": 0.35,
+    "otherLowShort": 1.265
+   }
+  ],
+  "dev": [
+   {
+    "round": 0,
+    "meanAbsDb": 7.111,
+    "cells": 38301
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 5.083,
+    "cells": 38102
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 4.223,
+    "cells": 37958
+   },
+   {
+    "round": 3,
+    "meanAbsDb": 3.889,
+    "cells": 38065
+   },
+   {
+    "round": 4,
+    "meanAbsDb": 3.761,
+    "cells": 38127
+   }
+  ]
+ },
+ "transcription": {
+  "templates": {
+   "isolatedFrames": 3200,
+   "registers": {
+    "2": 2295,
+    "3": 887,
+    "1": 18
+   },
+   "learned": [
+    2,
+    3
+   ]
+  },
+  "tracking": {
+   "rawNotes": 1384,
+   "notes": 851,
+   "noiseShare": 0.2798
+  },
+  "onsets": 670,
+  "retimed": 677,
+  "pyin": {
+   "tried": 29,
+   "changed": 6
+  },
+  "perRole": {
+   "otherLow": 45,
+   "otherMid": 98,
+   "otherHigh": 66,
+   "otherMidShort": 232,
+   "otherHighShort": 316,
+   "otherLowShort": 94
+  }
+ },
+ "parent": "V_026"
+}
