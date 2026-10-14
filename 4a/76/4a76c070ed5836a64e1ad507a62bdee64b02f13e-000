@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.705,
+ "plossBarNoOnset": 81.294,
+ "plossEvents": 79.605,
+ "tfBandsStable": 98.705,
+ "diagnosis": {
+  "E": 1.1389,
+  "score": 98.705,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.299,
+    "meanAbsDb": 2.66,
+    "signedDb": 0.06
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.258,
+    "meanAbsDb": 3.23,
+    "signedDb": 0.11
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.122,
+    "meanAbsDb": 2.03,
+    "signedDb": 0.05
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.132,
+    "meanAbsDb": 1.71,
+    "signedDb": -0.02
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.188,
+    "meanAbsDb": 1.73,
+    "signedDb": -0.04
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.114,
+    "meanAbsDb": 3.47,
+    "signedDb": 0.72
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.171,
+    "meanAbsDb": 1.98,
+    "signedDb": 0.06
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.14,
+    "meanAbsDb": 3.39,
+    "signedDb": 0.2
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.013,
+    "meanAbsDb": 3.29,
+    "signedDb": -1.11
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.094,
+    "meanAbsDb": 2.17,
+    "signedDb": 0.0
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.468,
+    "meanAbsDb": 2.02,
+    "signedDb": -0.09
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.628,
+   "sustainFrames": 0.372,
+   "missingEnergy": 0.136,
+   "extraEnergy": 0.212,
+   "within6Db": 0.652
+  },
+  "ifFixed": {
+   "missingEnergy": 99.03,
+   "extraEnergy": 99.19,
+   "onsetFrames": 99.82,
+   "lowUnder120Hz": 99.36
+  }
+ },
+ "version": "V_015"
+}

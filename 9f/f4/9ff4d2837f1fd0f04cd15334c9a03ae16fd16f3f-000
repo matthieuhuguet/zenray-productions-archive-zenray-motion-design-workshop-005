@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.592,
+ "plossBarNoOnset": 80.711,
+ "plossEvents": 76.516,
+ "tfBandsStable": 98.592,
+ "diagnosis": {
+  "E": 1.1877,
+  "score": 98.592,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.303,
+    "meanAbsDb": 2.8,
+    "signedDb": 0.04
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.258,
+    "meanAbsDb": 3.36,
+    "signedDb": 0.1
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.122,
+    "meanAbsDb": 2.12,
+    "signedDb": 0.04
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.131,
+    "meanAbsDb": 1.77,
+    "signedDb": -0.03
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.186,
+    "meanAbsDb": 1.78,
+    "signedDb": -0.05
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.112,
+    "meanAbsDb": 3.55,
+    "signedDb": 0.85
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.171,
+    "meanAbsDb": 2.07,
+    "signedDb": 0.04
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.142,
+    "meanAbsDb": 3.58,
+    "signedDb": 0.11
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.013,
+    "meanAbsDb": 3.35,
+    "signedDb": -1.1
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.094,
+    "meanAbsDb": 2.27,
+    "signedDb": -0.02
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.468,
+    "meanAbsDb": 2.11,
+    "signedDb": -0.1
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.622,
+   "sustainFrames": 0.378,
+   "missingEnergy": 0.149,
+   "extraEnergy": 0.217,
+   "within6Db": 0.634
+  },
+  "ifFixed": {
+   "missingEnergy": 98.98,
+   "extraEnergy": 99.13,
+   "onsetFrames": 99.8,
+   "lowUnder120Hz": 99.31
+  }
+ },
+ "version": "V_013"
+}

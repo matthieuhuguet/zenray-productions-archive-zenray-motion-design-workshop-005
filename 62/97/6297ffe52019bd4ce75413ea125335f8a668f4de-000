@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 99.029,
+ "plossBarNoOnset": 81.788,
+ "plossEvents": 80.33,
+ "tfBandsStable": 99.029,
+ "diagnosis": {
+  "E": 0.9855,
+  "score": 99.029,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.286,
+    "meanAbsDb": 2.21,
+    "signedDb": 0.05
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.252,
+    "meanAbsDb": 2.73,
+    "signedDb": 0.09
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.122,
+    "meanAbsDb": 1.76,
+    "signedDb": 0.03
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.141,
+    "meanAbsDb": 1.57,
+    "signedDb": -0.02
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.199,
+    "meanAbsDb": 1.58,
+    "signedDb": -0.04
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.107,
+    "meanAbsDb": 2.85,
+    "signedDb": 0.1
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.171,
+    "meanAbsDb": 1.72,
+    "signedDb": 0.02
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.141,
+    "meanAbsDb": 2.96,
+    "signedDb": 0.04
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.012,
+    "meanAbsDb": 2.58,
+    "signedDb": -0.21
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.094,
+    "meanAbsDb": 1.87,
+    "signedDb": 0.06
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.475,
+    "meanAbsDb": 1.77,
+    "signedDb": 0.0
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 1.88,
+    "signedDb": 1.88
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.624,
+   "sustainFrames": 0.376,
+   "missingEnergy": 0.117,
+   "extraEnergy": 0.155,
+   "within6Db": 0.728
+  },
+  "ifFixed": {
+   "missingEnergy": 99.24,
+   "extraEnergy": 99.31,
+   "onsetFrames": 99.86,
+   "lowUnder120Hz": 99.5
+  }
+ },
+ "version": "V_023"
+}

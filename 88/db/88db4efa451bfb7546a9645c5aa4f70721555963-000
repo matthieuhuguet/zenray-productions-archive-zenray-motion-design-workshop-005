@@ -1,0 +1,277 @@
+{
+ "date": "12 October 2026",
+ "scorer": "Scripts/MusicCritic.py compare (third-octave tfBands)",
+ "other": {
+  "tfBands": 96.758,
+  "E": 1.8109,
+  "plossBarNoOnset": 70.347,
+  "plossEvents": 71.519,
+  "mixTfBandsSwapped": 97.746,
+  "diagnosis": {
+   "E": 1.8109,
+   "score": 96.758,
+   "groups": [
+    {
+     "hz": [
+      30,
+      120
+     ],
+     "errorShare": 0.157,
+     "meanAbsDb": 5.99,
+     "signedDb": -0.63
+    },
+    {
+     "hz": [
+      120,
+      500
+     ],
+     "errorShare": 0.306,
+     "meanAbsDb": 4.03,
+     "signedDb": -0.86
+    },
+    {
+     "hz": [
+      500,
+      2000
+     ],
+     "errorShare": 0.264,
+     "meanAbsDb": 2.89,
+     "signedDb": -0.33
+    },
+    {
+     "hz": [
+      2000,
+      6000
+     ],
+     "errorShare": 0.126,
+     "meanAbsDb": 2.58,
+     "signedDb": 0.12
+    },
+    {
+     "hz": [
+      6000,
+      16000
+     ],
+     "errorShare": 0.148,
+     "meanAbsDb": 4.36,
+     "signedDb": 1.04
+    }
+   ],
+   "sections": [
+    {
+     "start": 0.0,
+     "end": 5.7469,
+     "errorShare": 0.069,
+     "meanAbsDb": 3.46,
+     "signedDb": -0.04
+    },
+    {
+     "start": 5.7469,
+     "end": 16.6502,
+     "errorShare": 0.138,
+     "meanAbsDb": 3.74,
+     "signedDb": -0.53
+    },
+    {
+     "start": 16.6502,
+     "end": 22.1018,
+     "errorShare": 0.12,
+     "meanAbsDb": 4.11,
+     "signedDb": 0.14
+    },
+    {
+     "start": 22.1018,
+     "end": 27.5534,
+     "errorShare": 0.097,
+     "meanAbsDb": 3.6,
+     "signedDb": -0.4
+    },
+    {
+     "start": 27.5534,
+     "end": 33.0051,
+     "errorShare": 0.103,
+     "meanAbsDb": 3.88,
+     "signedDb": -0.15
+    },
+    {
+     "start": 33.0051,
+     "end": 62.989,
+     "errorShare": 0.444,
+     "meanAbsDb": 3.57,
+     "signedDb": -0.28
+    },
+    {
+     "start": 62.989,
+     "end": 68.0533,
+     "errorShare": 0.031,
+     "meanAbsDb": 2.44,
+     "signedDb": -0.41
+    }
+   ],
+   "split": {
+    "onsetFrames": 0.681,
+    "sustainFrames": 0.319,
+    "missingEnergy": 0.289,
+    "extraEnergy": 0.215,
+    "within6Db": 0.495
+   },
+   "ifFixed": {
+    "missingEnergy": 98.35,
+    "extraEnergy": 97.99,
+    "onsetFrames": 99.67,
+    "lowUnder120Hz": 97.68
+   }
+  },
+  "dryTfBands": 90.864
+ },
+ "base": {
+  "version": "V_034",
+  "tfBands": 94.725,
+  "plossBarNoOnset": 67.417,
+  "plossEvents": 66.885
+ },
+ "fit": {
+  "calibration": [
+   {
+    "otherLow": 6.071,
+    "otherMid": 1.504,
+    "otherHigh": 1.157,
+    "otherMidShort": 1.87,
+    "otherHighShort": 1.375,
+    "otherLowShort": 4.699
+   },
+   {
+    "otherLow": 3.531,
+    "otherMid": 0.983,
+    "otherHigh": 0.741,
+    "otherMidShort": 1.151,
+    "otherHighShort": 0.839,
+    "otherLowShort": 2.29
+   },
+   {
+    "otherLow": 2.665,
+    "otherMid": 0.762,
+    "otherHigh": 0.557,
+    "otherMidShort": 0.866,
+    "otherHighShort": 0.651,
+    "otherLowShort": 1.635
+   },
+   {
+    "otherLow": 2.353,
+    "otherMid": 0.638,
+    "otherHigh": 0.423,
+    "otherMidShort": 0.763,
+    "otherHighShort": 0.52,
+    "otherLowShort": 1.407
+   },
+   {
+    "otherLow": 2.277,
+    "otherMid": 0.546,
+    "otherHigh": 0.353,
+    "otherMidShort": 0.686,
+    "otherHighShort": 0.424,
+    "otherLowShort": 1.329
+   },
+   {
+    "otherLow": 2.208,
+    "otherMid": 0.489,
+    "otherHigh": 0.304,
+    "otherMidShort": 0.621,
+    "otherHighShort": 0.35,
+    "otherLowShort": 1.265
+   },
+   {
+    "otherLow": 2.158,
+    "otherMid": 0.455,
+    "otherHigh": 0.275,
+    "otherMidShort": 0.561,
+    "otherHighShort": 0.286,
+    "otherLowShort": 1.194
+   },
+   {
+    "otherLow": 2.131,
+    "otherMid": 0.425,
+    "otherHigh": 0.256,
+    "otherMidShort": 0.508,
+    "otherHighShort": 0.239,
+    "otherLowShort": 1.15
+   },
+   {
+    "otherLow": 2.096,
+    "otherMid": 0.404,
+    "otherHigh": 0.236,
+    "otherMidShort": 0.463,
+    "otherHighShort": 0.202,
+    "otherLowShort": 1.128
+   },
+   {
+    "otherLow": 2.072,
+    "otherMid": 0.385,
+    "otherHigh": 0.218,
+    "otherMidShort": 0.435,
+    "otherHighShort": 0.174,
+    "otherLowShort": 1.12
+   }
+  ],
+  "dev": [
+   {
+    "round": 0,
+    "meanAbsDb": 8.451,
+    "cells": 10704
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 6.894,
+    "cells": 10699
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 6.136,
+    "cells": 10687
+   },
+   {
+    "round": 3,
+    "meanAbsDb": 5.758,
+    "cells": 10635
+   },
+   {
+    "round": 4,
+    "meanAbsDb": 5.604,
+    "cells": 10584
+   }
+  ]
+ },
+ "transcription": {
+  "templates": {
+   "isolatedFrames": 3200,
+   "registers": {
+    "2": 2295,
+    "3": 887,
+    "1": 18
+   },
+   "learned": [
+    2,
+    3
+   ]
+  },
+  "tracking": {
+   "rawNotes": 1384,
+   "notes": 851,
+   "noiseShare": 0.2798
+  },
+  "onsets": 670,
+  "retimed": 677,
+  "pyin": {
+   "tried": 29,
+   "changed": 6
+  },
+  "perRole": {
+   "otherLow": 45,
+   "otherMid": 98,
+   "otherHigh": 66,
+   "otherMidShort": 232,
+   "otherHighShort": 316,
+   "otherLowShort": 94
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.817,
+ "plossBarNoOnset": 81.275,
+ "plossEvents": 79.763,
+ "tfBandsStable": 98.817,
+ "diagnosis": {
+  "E": 1.0881,
+  "score": 98.817,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.275,
+    "meanAbsDb": 2.35,
+    "signedDb": 0.61
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.262,
+    "meanAbsDb": 3.09,
+    "signedDb": 1.31
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.129,
+    "meanAbsDb": 2.03,
+    "signedDb": 0.68
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.139,
+    "meanAbsDb": 1.72,
+    "signedDb": 0.38
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.195,
+    "meanAbsDb": 1.72,
+    "signedDb": 0.36
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.117,
+    "meanAbsDb": 3.37,
+    "signedDb": 1.56
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.168,
+    "meanAbsDb": 1.87,
+    "signedDb": 0.56
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.141,
+    "meanAbsDb": 3.23,
+    "signedDb": 1.01
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.013,
+    "meanAbsDb": 3.15,
+    "signedDb": -0.78
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.091,
+    "meanAbsDb": 2.02,
+    "signedDb": 0.62
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.47,
+    "meanAbsDb": 1.94,
+    "signedDb": 0.51
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.619,
+   "sustainFrames": 0.381,
+   "missingEnergy": 0.089,
+   "extraEnergy": 0.26,
+   "within6Db": 0.651
+  },
+  "ifFixed": {
+   "missingEnergy": 99.02,
+   "extraEnergy": 99.35,
+   "onsetFrames": 99.83,
+   "lowUnder120Hz": 99.38
+  }
+ },
+ "version": "V_020"
+}

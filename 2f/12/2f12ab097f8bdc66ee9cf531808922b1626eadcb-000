@@ -1,0 +1,214 @@
+{
+ "date": "12 October 2026",
+ "scorer": "Scripts/MusicCritic.py compare (third-octave tfBands)",
+ "other": {
+  "tfBands": 95.656,
+  "E": 2.102,
+  "plossBarNoOnset": 72.185,
+  "plossEvents": 67.86,
+  "mixTfBandsSwapped": 97.62,
+  "diagnosis": {
+   "E": 2.102,
+   "score": 95.656,
+   "groups": [
+    {
+     "hz": [
+      30,
+      120
+     ],
+     "errorShare": 0.155,
+     "meanAbsDb": 6.79,
+     "signedDb": -0.5
+    },
+    {
+     "hz": [
+      120,
+      500
+     ],
+     "errorShare": 0.304,
+     "meanAbsDb": 4.68,
+     "signedDb": -1.07
+    },
+    {
+     "hz": [
+      500,
+      2000
+     ],
+     "errorShare": 0.261,
+     "meanAbsDb": 3.35,
+     "signedDb": -0.38
+    },
+    {
+     "hz": [
+      2000,
+      6000
+     ],
+     "errorShare": 0.122,
+     "meanAbsDb": 2.91,
+     "signedDb": 0.33
+    },
+    {
+     "hz": [
+      6000,
+      16000
+     ],
+     "errorShare": 0.158,
+     "meanAbsDb": 5.21,
+     "signedDb": 2.27
+    }
+   ],
+   "sections": [
+    {
+     "start": 0.0,
+     "end": 5.7469,
+     "errorShare": 0.064,
+     "meanAbsDb": 3.69,
+     "signedDb": 0.3
+    },
+    {
+     "start": 5.7469,
+     "end": 16.6502,
+     "errorShare": 0.151,
+     "meanAbsDb": 4.78,
+     "signedDb": -0.92
+    },
+    {
+     "start": 16.6502,
+     "end": 22.1018,
+     "errorShare": 0.113,
+     "meanAbsDb": 4.54,
+     "signedDb": 0.25
+    },
+    {
+     "start": 22.1018,
+     "end": 27.5534,
+     "errorShare": 0.09,
+     "meanAbsDb": 3.94,
+     "signedDb": -0.83
+    },
+    {
+     "start": 27.5534,
+     "end": 33.0051,
+     "errorShare": 0.096,
+     "meanAbsDb": 4.18,
+     "signedDb": 0.36
+    },
+    {
+     "start": 33.0051,
+     "end": 62.989,
+     "errorShare": 0.459,
+     "meanAbsDb": 4.27,
+     "signedDb": 0.07
+    },
+    {
+     "start": 62.989,
+     "end": 68.0533,
+     "errorShare": 0.027,
+     "meanAbsDb": 2.53,
+     "signedDb": -0.7
+    }
+   ],
+   "split": {
+    "onsetFrames": 0.696,
+    "sustainFrames": 0.304,
+    "missingEnergy": 0.316,
+    "extraEnergy": 0.269,
+    "within6Db": 0.415
+   },
+   "ifFixed": {
+    "missingEnergy": 97.94,
+    "extraEnergy": 97.65,
+    "onsetFrames": 99.59,
+    "lowUnder120Hz": 96.88
+   }
+  },
+  "dryTfBands": 89.667
+ },
+ "base": {
+  "version": "V_034",
+  "tfBands": 94.725,
+  "plossBarNoOnset": 67.417,
+  "plossEvents": 66.885
+ },
+ "fit": {
+  "calibration": [
+   {
+    "otherLow": 5.181,
+    "otherMid": 1.271,
+    "otherHigh": 1.286
+   },
+   {
+    "otherLow": 2.601,
+    "otherMid": 0.745,
+    "otherHigh": 0.696
+   },
+   {
+    "otherLow": 1.834,
+    "otherMid": 0.584,
+    "otherHigh": 0.516
+   },
+   {
+    "otherLow": 1.516,
+    "otherMid": 0.474,
+    "otherHigh": 0.401
+   },
+   {
+    "otherLow": 1.401,
+    "otherMid": 0.396,
+    "otherHigh": 0.313
+   },
+   {
+    "otherLow": 1.332,
+    "otherMid": 0.352,
+    "otherHigh": 0.256
+   }
+  ],
+  "dev": [
+   {
+    "round": 0,
+    "meanAbsDb": 8.613,
+    "cells": 10415
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 6.978,
+    "cells": 10424
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 6.101,
+    "cells": 10379
+   }
+  ]
+ },
+ "transcription": {
+  "templates": {
+   "isolatedFrames": 3200,
+   "registers": {
+    "2": 2295,
+    "3": 887,
+    "1": 18
+   },
+   "learned": [
+    2,
+    3
+   ]
+  },
+  "tracking": {
+   "rawNotes": 1063,
+   "notes": 874,
+   "noiseShare": 0.346
+  },
+  "onsets": 670,
+  "retimed": 668,
+  "pyin": {
+   "tried": 29,
+   "changed": 5
+  },
+  "perRole": {
+   "otherLow": 155,
+   "otherMid": 321,
+   "otherHigh": 398
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.899,
+ "plossBarNoOnset": 81.019,
+ "plossEvents": 79.574,
+ "tfBandsStable": 98.899,
+ "diagnosis": {
+  "E": 1.0496,
+  "score": 98.899,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.291,
+    "meanAbsDb": 2.39,
+    "signedDb": -0.16
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.249,
+    "meanAbsDb": 2.88,
+    "signedDb": -0.01
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.12,
+    "meanAbsDb": 1.84,
+    "signedDb": -0.0
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.139,
+    "meanAbsDb": 1.65,
+    "signedDb": 0.01
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.201,
+    "meanAbsDb": 1.69,
+    "signedDb": 0.01
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.106,
+    "meanAbsDb": 3.01,
+    "signedDb": 0.02
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.17,
+    "meanAbsDb": 1.82,
+    "signedDb": -0.06
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.139,
+    "meanAbsDb": 3.1,
+    "signedDb": 0.0
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.012,
+    "meanAbsDb": 2.7,
+    "signedDb": -0.33
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.092,
+    "meanAbsDb": 1.95,
+    "signedDb": 0.04
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.482,
+    "meanAbsDb": 1.92,
+    "signedDb": -0.06
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.616,
+   "sustainFrames": 0.384,
+   "missingEnergy": 0.129,
+   "extraEnergy": 0.156,
+   "within6Db": 0.715
+  },
+  "ifFixed": {
+   "missingEnergy": 99.16,
+   "extraEnergy": 99.22,
+   "onsetFrames": 99.84,
+   "lowUnder120Hz": 99.45
+  }
+ },
+ "version": "V_018"
+}
