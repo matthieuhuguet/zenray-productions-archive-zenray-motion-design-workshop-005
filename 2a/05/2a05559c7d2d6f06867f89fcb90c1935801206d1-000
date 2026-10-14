@@ -1,0 +1,19 @@
+{
+ "date": "13 October 2026",
+ "green": {
+  "levelErrDb": 0.17,
+  "scatterDb": 0.016,
+  "randomBedScatterDb": 0.965
+ },
+ "redSpacing1": {
+  "levelErrDb": 0.075,
+  "scatterDb": 0.772,
+  "randomBedScatterDb": 0.965
+ },
+ "redLevel0": {
+  "levelErrDb": 6.185,
+  "scatterDb": 0.016,
+  "randomBedScatterDb": 0.965
+ },
+ "pass": true
+}

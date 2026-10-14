@@ -1,0 +1,47 @@
+{
+ "date": "12 October 2026",
+ "green": {
+  "f": 0.991,
+  "precision": 1.0,
+  "recall": 0.9821,
+  "truth": 112,
+  "est": 110
+ },
+ "red": {
+  "f": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "truth": 112,
+  "est": 110
+ },
+ "pass": true,
+ "transcription": {
+  "templates": {
+   "isolatedFrames": 998,
+   "registers": {
+    "3": 235,
+    "2": 763
+   },
+   "learned": [
+    2,
+    3
+   ]
+  },
+  "tracking": {
+   "rawNotes": 204,
+   "notes": 110,
+   "noiseShare": 0.0167
+  },
+  "onsets": 48,
+  "retimed": 91,
+  "pyin": {
+   "tried": 0,
+   "changed": 0
+  },
+  "perRole": {
+   "otherLow": 0,
+   "otherMid": 32,
+   "otherHigh": 78
+  }
+ }
+}
